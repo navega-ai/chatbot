@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navega AI</title>
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+</head>
+<body>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <df-messenger
+        location="europe-west3"
+        project-id="jeffprestes"
+        agent-id="ba8fef9e-e20c-4f39-8315-357565d7e93f"
+        language-code="pt-br">
+        <df-messenger-chat
+            chat-title="teste-01-navegaai">
+        </df-messenger-chat>
+    </df-messenger>
+    <style>
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            width: 350px;
+        }
+    </style>
+</body>
+</html>
